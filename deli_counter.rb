@@ -16,3 +16,4 @@ def now_serving(katz_deli)
   in_line.shift(customer)
   puts "There is nobody waiting to be served!" if line == 0
 end
+end
