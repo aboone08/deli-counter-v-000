@@ -5,7 +5,6 @@ def line(in_line)
   if in_line.size==0
   puts "The line is currently empty."
   else
-    in_line.to_i
     in_line.push(katz_deli)
     puts "The line has #{in_line} number of people in line."
 end
