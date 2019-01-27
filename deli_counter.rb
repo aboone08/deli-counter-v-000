@@ -6,7 +6,7 @@ def line(in_line)
   puts "The line is currently empty."
   else
      "The line is currently:"
-     in_line.push(katz_deli).index
+     in_line.index
    end
 end
 def take_a_number(in_line, customer)
