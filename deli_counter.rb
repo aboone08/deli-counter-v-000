@@ -5,7 +5,7 @@ def line(in_line)
   puts "The line is currently empty."
   else
      result="The line is currently:"
-     in_line.each.index do |customer|
+     in_line.index.each do |customer|
        result += "#{customer}"
      end
      puts result
