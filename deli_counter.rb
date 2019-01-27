@@ -10,6 +10,8 @@ def line(katz_deli)
       puts "#{customer} is the #{katz_deli} person in line."
   now_serving(katz_deli)
   puts "Now serving #{customer}."
-  katz_deli.pull
-  puts "There is nobody waiting to be served!" if line == 0
+    else
+       katz_deli.pull
+       puts "There is nobody waiting to be served!" if line == 0
+     end
 end
