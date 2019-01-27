@@ -7,7 +7,7 @@ def line(in_line)
   else
     in_line.index
      puts "The line is currently:"
-     
+
    end
 end
 def take_a_number(in_line, customer)
