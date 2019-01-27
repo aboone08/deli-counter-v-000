@@ -5,9 +5,8 @@ def line(in_line)
   if in_line.size==0
   puts "The line is currently empty."
   else
-    customer.to_i
-    customer.push(in_line)
-
+    in_line.to_i
+    in_line.push(katz_deli)
     puts "The line has #{in_line} number of people in line."
 end
 def take_a_number(in_line, customer)
