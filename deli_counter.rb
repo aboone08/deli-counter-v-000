@@ -5,13 +5,13 @@ def line(in_line)
   puts "The line is currently empty."
   else
     customer.to_i
-    customer.push(in_line)
+    customer.push(katz_deli)
     puts "The line has #{in_line} number of people in line."
 end
-def take_a_number(in_line, customer)
+def take_a_number(katz_deli, customer)
       puts "#{customer} is the #{in_line} person in line." if in_line.size > 1
 end
-def now_serving(in_line)
+def now_serving(katz_deli)
   puts "Now serving #{customer}."
   in_line.shift(customer)
   puts "There is nobody waiting to be served!" if line == 0
