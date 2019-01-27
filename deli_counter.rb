@@ -3,8 +3,7 @@ katz_deli = []
 def line(in_line)
   if in_line.size==0
   puts "The line is currently empty."
-  else
-
+end
 def take_a_number(in_line, customer)
       puts "#{customer} is the #{in_line} person in line."
 end
