@@ -3,7 +3,7 @@ katz_deli = []
 def line(katz_deli)
   case katz_deli.size
   when 0
-  puts "The line is currently empty." 
+  puts "The line is currently empty."
 
 def take_a_number(katz_deli, customer)
   katz_deli.to_i
