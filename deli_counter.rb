@@ -23,5 +23,4 @@ def now_serving(in_line)
       in_line.shift(customer)
       puts "Now serving #{customer}."
     end
-    
 end
