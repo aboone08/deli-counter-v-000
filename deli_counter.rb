@@ -1,6 +1,5 @@
 # Write your code here.
 katz_deli = []
-customer = []
 def line(in_line)
   if in_line.size==0
   puts "The line is currently empty."
@@ -16,7 +15,7 @@ def take_a_number(in_line, customer)
     in_line.push(customer)
       puts "Welcome, #{customer}. You are number #{in_line.size} in line." if in_line.size > 1
 end
-def now_serving(katz_deli)
+def now_serving(in_line)
   puts "Now serving #{customer}."
   in_line.shift(customer)
   puts "There is nobody waiting to be served!" if line == 0
