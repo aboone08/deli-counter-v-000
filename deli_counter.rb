@@ -8,7 +8,7 @@ def line(in_line)
      results "The line is currently: #{in_line}"
      in_line.each do |customer|
      end
-     puts resultx
+     puts result
    end
 end
 def take_a_number(in_line, customer)
