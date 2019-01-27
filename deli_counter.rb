@@ -12,5 +12,4 @@ def now_serving(in_line)
   puts "Now serving #{customer}."
   in_line.pull(customer)
   puts "There is nobody waiting to be served!" if line == 0
-     end
 end
