@@ -6,7 +6,7 @@ def line(in_line)
   puts "The line is currently empty."
   else
     in_line.push(katz_deli)
-    in_line.each do |customer|
+    in_line.each do |customer|.index
       puts "The line is currently: #{in_line}."
     end
 end
