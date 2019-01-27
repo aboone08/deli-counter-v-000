@@ -7,6 +7,7 @@ def line(katz_deli)
   take_a_number(katz_deli, customer)
     when 1
       katz_deli.to_i
+      customer +=1
       puts "#{customer} is the #{katz_deli} person in line."
   now_serving(katz_deli)
   puts "Now serving #{customer}."
