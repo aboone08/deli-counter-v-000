@@ -22,4 +22,5 @@ def now_serving(in_line)
   else
     if in_line.size > 1
     puts "Now serving #{customer}."
+    end 
 end
