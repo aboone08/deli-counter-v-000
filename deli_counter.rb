@@ -1,7 +1,9 @@
 # Write your code here.
 katz_deli = []
 def line(katz_deli)
-  puts "The line is currently empty." if line == 0
+  case katz_deli.size
+  when 0
+  puts "The line is currently empty." 
 end
 def take_a_number(katz_deli, customer)
   katz_deli.to_i
