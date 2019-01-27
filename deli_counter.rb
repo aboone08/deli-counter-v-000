@@ -1,10 +1,10 @@
 # Write your code here.
 katz_deli = []
+customer = []
 def line(in_line)
   if in_line.size==0
   puts "The line is currently empty."
   else
-    in_line.push(customer)
     customer.to_i
     customer.push(in_line)
 
