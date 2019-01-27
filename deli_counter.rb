@@ -12,7 +12,7 @@ def line(in_line)
    end
 end
 def take_a_number(in_line, customer)
-      puts "Welcome, #{customer}. You are number #{line} in line." if in_line.size > 1
+      puts "Welcome, #{customer}. You are number #{in_line} in line." if in_line.size > 1
 end
 def now_serving(katz_deli)
   puts "Now serving #{customer}."
