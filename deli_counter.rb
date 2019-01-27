@@ -5,8 +5,9 @@ def line(in_line)
   if in_line.size==0
   puts "The line is currently empty."
   else
-     "The line is currently:"
-     in_line.index
+    in_line.index
+     puts "The line is currently:"
+     
    end
 end
 def take_a_number(in_line, customer)
