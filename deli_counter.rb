@@ -8,6 +8,7 @@ def line(in_line)
     in_line.push(katz_deli)
     in_line.each do |customer|
       puts "The line is currently: #{in_line}."
+    end
 end
 def take_a_number(in_line, customer)
       puts "Welcome, #{customer}. You are number #{line} in line." if in_line.size > 1
