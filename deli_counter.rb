@@ -1,6 +1,6 @@
 # Write your code here.
 katz_deli = []
-customer = []
+#customer = []
 def line(in_line)
   if in_line.size==0
   puts "The line is currently empty."
