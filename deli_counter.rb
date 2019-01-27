@@ -19,5 +19,5 @@ end
 def now_serving(in_line)
   puts "Now serving #{customer}."
   in_line.shift(customer)
-  puts "There is nobody waiting to be served!" if line == 0
+  puts "There is nobody waiting to be served!" if in_line.size == 0
 end
