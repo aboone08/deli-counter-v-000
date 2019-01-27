@@ -7,7 +7,7 @@ def line(in_line)
   else
     in_line.push(katz_deli)
       puts "The line is currently:"
-      
+
 
 end
 def take_a_number(in_line, customer)
