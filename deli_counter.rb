@@ -19,8 +19,7 @@ def now_serving(in_line)
   if in_line.size == 0
     puts "There is nobody waiting to be served!"
   else
-    if in_line.size > 1
-      in_line.shift(customer)
-      puts "Now serving #{customer}."
-    end
+    in_line.shift(customer)
+    puts "Now serving #{customer}."
+  end
 end
