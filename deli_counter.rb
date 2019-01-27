@@ -6,7 +6,7 @@ def line(in_line)
   puts "The line is currently empty."
   else
     in_line.index
-     puts "The line is currently:"
+     puts "The line is currently: #{in_line}"
 
    end
 end
