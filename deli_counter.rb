@@ -7,7 +7,7 @@ def line(in_line)
   else
      result="The line is currently:"
      in_line.each do |customer|
-       result += "{in_line.index(customer)+1}. #{customer}"
+       result += "#{customer}"
      end
      puts result
    end
