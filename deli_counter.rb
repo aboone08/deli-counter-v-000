@@ -1,12 +1,11 @@
 # Write your code here.
 katz_deli = []
-#customer = []
 def line(in_line)
   if in_line.size==0
   puts "The line is currently empty."
   else
      result="The line is currently:"
-     in_line.each do |customer|
+     in_line.each.index do |customer|
        result += "#{customer}"
      end
      puts result
