@@ -6,7 +6,7 @@ def line(in_line)
   else
     customer.to_i
     customer.push(in_line)
-    in_line.push(katz_deli)
+    in_line.push(customer)
     puts "The line has #{in_line} number of people in line."
 end
 def take_a_number(in_line, customer)
