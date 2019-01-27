@@ -4,7 +4,6 @@ def line(in_line)
   if in_line.size==0
   puts "The line is currently empty."
   else
-    in_line.size > 1
     customer.to_i
     customer.push(in_line)
     puts "The line has #{in_line} number of people in line." 
