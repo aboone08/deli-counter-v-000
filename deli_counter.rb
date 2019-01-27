@@ -5,8 +5,7 @@ def line(in_line)
   if in_line.size==0
   puts "The line is currently empty."
   else
-    in_line.push(katz_deli)
-    katz_deli.index
+    in_line.push(katz_deli).index
       puts "The line is currently: #{in_line}."
 
 end
