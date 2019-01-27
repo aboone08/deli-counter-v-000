@@ -15,6 +15,7 @@ def take_a_number(in_line, customer)
   if in_line.size > 1
     in_line.push(customer)
       puts "Welcome, #{customer}. You are number #{in_line.size} in line."
+  end 
 end
 def now_serving(in_line)
   puts "Now serving #{customer}."
