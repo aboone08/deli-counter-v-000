@@ -12,5 +12,5 @@ def line(katz_deli)
   puts "Now serving #{customer}."
   katz_deli.pull
   puts "There is nobody waiting to be served!" if line == 0
-end
+  end
 end
