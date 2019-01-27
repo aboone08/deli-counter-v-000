@@ -3,10 +3,11 @@ katz_deli = []
 def line(in_line)
   if in_line.size==0
   puts "The line is currently empty."
-else
+  else
+    in_line.size > 1
+    customer.to_i
+    customer.push(in_line)
  take_a_number(in_line, customer)
-  customer.to_i
-  customer.push(in_line)
       puts "#{customer} is the #{in_line} person in line." if in_line.size > 1
 end
 def now_serving(in_line)
