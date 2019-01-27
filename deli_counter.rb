@@ -7,7 +7,6 @@ def line(in_line)
   else
      "The line is currently:"
      in_line.push(katz_deli).index
-
    end
 end
 def take_a_number(in_line, customer)
@@ -17,5 +16,4 @@ def now_serving(katz_deli)
   puts "Now serving #{customer}."
   in_line.shift(customer)
   puts "There is nobody waiting to be served!" if line == 0
-end
 end
