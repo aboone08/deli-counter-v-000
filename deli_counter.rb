@@ -4,7 +4,7 @@ def line(katz_deli)
   case katz_deli.size
   when 0
   puts "The line is currently empty." 
-end
+
 def take_a_number(katz_deli, customer)
   katz_deli.to_i
   puts "#{customer} is the #{katz_deli} person in line."
